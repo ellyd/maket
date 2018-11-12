@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2:400,900|PT+Sans:400,700');
+
+@font-face {
+	font-family: 'PT Astra Sans';
+	src: url('Ptastrasans.woff') format('woff'),
+		 url('Ptastrasans.woff2') format('woff2'),
+		 url('Ptastrasans.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'PT Astra Sans Bold';
+	src: url('Ptastrasansbold.woff') format('woff'),
+		 url('Ptastrasansbold.woff2') format('woff2'),
+		 url('Ptastrasansbold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'PT Astra Sans Italic';
+	src: url('Ptastrasansitalic.woff') format('woff'),
+		 url('Ptastrasansitalic.woff2') format('woff2'),
+		 url('Ptastrasansitalic.ttf') format('truetype');
+}
+
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	min-height: 100%;
+}
+
+body {
+	color:  #fff;
+	font: 14px/1.4 'PT Sans', Arial, sans-serif;
+}
+
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.section {
+	&--header {
+		background-image: url(../img/bg-h.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		height: 100vh;
+	}
+}

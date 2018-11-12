@@ -1,0 +1,13 @@
+<svg id="diagram" xmlns="http://www.w3.org/2000/svg" width="52" height="40" viewBox="0 0 52 40">
+  <defs>
+    <style>
+      .cls-7 {
+        fill: none;
+        stroke: #fff;
+        stroke-width: 2px;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path class="cls-7" d="M1109,1861v-17.74m10,17.74v-10m10,10v-20m10,20v-23m10,23v-33m10,33v-40" transform="translate(-1108 -1821)"/>
+</svg>

@@ -1,0 +1,13 @@
+<svg id="case" xmlns="http://www.w3.org/2000/svg" width="55" height="42.94" viewBox="0 0 55 42.94">
+  <defs>
+    <style>
+      .cls-3 {
+        fill: none;
+        stroke: #9197a1;
+        stroke-width: 1px;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path class="cls-3" d="M190.5,988.512a3,3,0,0,0-3-3h-8a3,3,0,0,0-3,3m34,38.918h-54v-36h54v36Zm-54-17.92h12m4,4h-4v-8h4v8Zm26,0h-4v-8h4v8Zm-26-4h22m4,0h12" transform="translate(-156 -985)"/>
+</svg>
