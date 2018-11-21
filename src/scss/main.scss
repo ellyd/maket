@@ -417,15 +417,17 @@ body {
 		justify-content: space-around;
 		border: 1px solid rgba(255, 255, 255, .1);
 		padding: 50px 0;
-		// @media screen and (min-width: 960px) {
-		// 	display: block;
-		// }
+	}
+	&__numeric {
+		width: 188px;
+		position: relative;
 	}
 	&__icon--numeric {
-		display: inline-block;
+		position: absolute;
+		top: 40%;
+		left: -20%;
 		color: #f47d42;
-		font-size: 30px; 
-		margin: 0 10px 0 0;
+		font-size: 30px;
 	}
 	&__link--numeric {
 		position: relative;
@@ -450,7 +452,7 @@ body {
 		.section__knew {
 			top: 100%;
 			left: 0;
-			width: 70%;
+			width: 75%;
 		}
 	}
 	&--height {
@@ -458,9 +460,9 @@ body {
 		margin: 0 0 30px;
 	}
 	&__numeral {
-		font-size: 50px;
+		font-size: 110px;
+		font-weight: 700;
 		color: transparent;
-		text-stroke: 2px #fff;
 		-webkit-text-stroke: 2px #fff;
 		margin: 0;
 	}
